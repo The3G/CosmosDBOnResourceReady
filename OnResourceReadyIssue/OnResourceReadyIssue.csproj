@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.4.0" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net10.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>cc70117c-e39f-4a32-ae6a-a33da8fc06d8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Azure.Data.Tables" Version="9.5.0-preview.1.25401.6" />
+    <PackageReference Include="Aspire.Azure.Storage.Queues" Version="9.5.0-preview.1.25401.6" />
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.5.0-preview.1.25401.6" />
+    <PackageReference Include="Aspire.Hosting.Azure.AIFoundry" Version="9.5.0-preview.1.25401.6" />
+    <PackageReference Include="Aspire.Hosting.Azure.CosmosDB" Version="9.5.0-preview.1.25401.6" />
+    <PackageReference Include="Aspire.Hosting.Azure.EventHubs" Version="9.5.0-preview.1.25401.6" />
+    <PackageReference Include="Aspire.Hosting.Azure.Search" Version="9.5.0-preview.1.25401.6" />
+    <PackageReference Include="Aspire.Hosting.Azure.ServiceBus" Version="9.5.0-preview.1.25401.6" />
+    <PackageReference Include="Aspire.Hosting.Azure.Sql" Version="9.5.0-preview.1.25401.6" />
+    <PackageReference Include="Aspire.Hosting.Azure.Storage" Version="9.5.0-preview.1.25401.6" />
+    <PackageReference Include="Aspire.Hosting.Qdrant" Version="9.5.0-preview.1.25401.6" />
+    <PackageReference Include="Azure.Messaging.EventHubs" Version="5.12.2" />
+    <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.20.1" />
+    <PackageReference Include="Bogus" Version="35.6.3" />
+  </ItemGroup>
+
+</Project>
